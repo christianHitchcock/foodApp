@@ -8,9 +8,10 @@
     --header-large: 24px;
     --bg-white: #fff;
     --bg-dark:#252B42;
-    --bg-gray: #eeeeee;
+    --bg-gray: #e2dfdf;
     --bg-orange:#FA4A0C;
-    ;
+    --bg-darkgrey:#646466;
+    
 }
 
 .container {
@@ -68,3 +69,58 @@ header img {
     font-size: 50px;
     color: grey;
   }
+
+  .section-one {
+    background-color:#e2dfdf;
+  }
+
+  .section-one h5 {
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+    color:var(--bg-darkgrey);
+  }
+  .section-one h1 {
+    font-size: 36px;
+    text-align: center;
+    font-weight: 900;
+    margin-top: 10px;
+    color: #252B42;
+  }
+  .section-one h4 {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 500;
+    line-height: 38px;
+    margin: 20px 15px;
+  }
+  .section-one div a {
+    display: flex;
+    flex-direction: column;
+    padding: 16px 0px;
+    width: 236px;
+    height: 68px;
+    align-items: center;
+    margin: auto;
+    border-radius: 30px;
+    margin-bottom: 15px;
+    color: var(--bg-white);
+    background: var(--bg-orange);
+    box-shadow: 0px 40px 40px rgb(0,0,0,0.7);
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 0.1px;
+    border: 1px solid var(--bg-orange);
+    line-height: 36px;
+    text-decoration: none;
+  }
+
+  .section-one div a:hover{
+    background-color:transparent;
+    color: var(--bg-orange);
+  }
+
+ 
